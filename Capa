@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capa do Trabalho Acadêmico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+        }
+        .cover {
+            text-align: center;
+            background-color: white;
+            padding: 50px;
+            border: 2px solid #ff6347;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cover h1, .cover h2, .cover h3, .cover p {
+            margin: 10px 0;
+        }
+        .cover h1 {
+            font-size: 24px;
+            color: #ff6347;
+        }
+        .cover h2 {
+            font-size: 20px;
+            color: #333;
+        }
+        .cover h3 {
+            font-size: 18px;
+            color: #333;
+        }
+        .cover p {
+            font-size: 16px;
+            color: #333;
+        }
+        .cover a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+        .cover a:hover {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <h1>CENTRO UNIVERSITÁRIO INTERNACIONAL UNINTER</h1>
+        <h2>ESCOLA SUPERIOR POLITÉCNICA</h2>
+        <h3>NOME DO CURSO</h3>
+        <h3>FUNDAMENTOS DE DESENVOLVIMENTO DE SOFTWARE</h3>
+        <h3>ATIVIDADE PRÁTICA</h3>
+        <p>Cleiton Kauan Andrade Santos – RU: 5338434</p>
+        <p>SUA CIDADE – SEU ESTADO</p>
+        <p>2025</p>
+        <p>Link 1: <a href="https://apenas-eu007.github.io/trabalho-fundamentos-software/" target="_blank">Link do Site no GitHub</a></p>
+        <p>Link 2: <a href="https://github.com/apenas-eu007/trabalho-fundamentos-software" target="_blank">Link do Repositório no GitHub</a></p>
+    </div>
+</body>
+</html>
